@@ -1,0 +1,42 @@
+@use 'HeroSection';
+@use 'Projects';
+@use 'About';
+@use 'Contact';
+@use 'Navigation';
+
+@use 'Variables';
+@use 'Columns';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Variables.$font_family;
+  font-size: Variables.$font_size;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-container {
+  height: 100vh;
+  position: relative;
+}
+
+.app-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}

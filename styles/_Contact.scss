@@ -1,0 +1,74 @@
+@use 'Variables';
+
+.vertical-horizontal-rule {
+    border-left: 2px solid black;
+    margin: auto 0;
+}
+
+.contact-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    width: 70%;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+
+    h3 {
+        font-size: Variables.$sub_header_font-size;
+    }
+}
+
+.email {
+    position: absolute;
+    width: inherit;
+}
+
+.social-container {
+    position: relative;
+}
+
+.social-icons {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+form {
+    position: relative;
+    height: 100%;
+}
+
+input, textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: Variables.$input_font_size;
+}
+
+textarea {
+    height: 80%;
+    resize: none;
+    overflow: auto;
+    text-align: left;
+}
+
+.submit-btn {
+    padding: 0.25rem 1.5rem;
+    font-size: Variables.$font_size;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer; 
+}
+
+.socialMedia {
+    columns: 2;
+    height: 100%;
+
+    li {
+        height: 33.333%;
+        font-size: Variables.$icon_contact_social_media_icons;
+    }
+}

@@ -1,0 +1,17 @@
+@use 'Variables';
+
+@for $i from 1 through Variables.$grid_columns {
+    .col-#{$i} {
+        width: percentage($i / Variables.$grid-columns)
+    }
+
+    .h-#{$i} {
+        height: percentage($i / Variables.$grid-columns)
+    }
+}
+
+[class^='col-'] {
+    box-sizing: border-box;
+    float: left;
+    padding: 1em 0;
+}
