@@ -5,10 +5,10 @@ const techStack = ["Next", "React", "Redux", "Express", "Mongo", "GIMP"]
 const solutions = ["Blogs", "Dashboards", "Portfolios", "Ecommerce", "Visual Novel Engine", "Offline Browser Apps"]
 const listTalents = ["Single Page", "Multi-Page", "Custom API", "Sub Domains", "Serverless"]
 
-export default function About() { 
+export default function About() {
     return(
         <div id="Skills" className="page-container">
-            <div className="card-container col-10">
+            <div data-aos="fade-up" className="card-container col-12">
                 <SkillCard title="Stack" list={techStack}/>
                 <SkillCard title="Solutions" list={solutions}/>
                 <SkillCard title="Services" list={listTalents} />

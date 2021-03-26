@@ -4,11 +4,8 @@
     display: flex;
     justify-content: space-around;
     position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-    min-height: 300px;
-    height: 60%;
+    margin-top: 8%;
+    height: 70%;
 }
 
 .card {
@@ -24,7 +21,7 @@
 
 .call-to-action {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     background: dodgerblue;

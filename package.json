@@ -8,6 +8,7 @@
     "start": "node server"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "next": "10.0.9",
