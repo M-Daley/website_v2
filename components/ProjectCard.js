@@ -15,8 +15,8 @@ return(
                     <p>{description}</p>
                 </div>
                 <div className="project-btns">
-                    <h2><a href={git}>GitHub</a></h2>
-                    <h2><a href={demo}>Demo</a></h2>
+                    <h2><a href={git} target="_blank">GitHub</a></h2>
+                    <h2><a href={demo} target="_blank">Demo</a></h2>
                 </div>
             </div>
         </div>
