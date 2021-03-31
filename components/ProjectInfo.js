@@ -14,6 +14,14 @@ const ProjectInfo = {
         demo: "https://responsivereact.herokuapp.com",
         image: "/assets/responsive.png",
         title: "Responsive Info Page"
+    },
+    blog: {
+        position: 3,
+        description: "Blog built using a markup to html read and Next.js. Used for templating and introductory to Next.js as well as Vercel Web hosting.",
+        git: "https://github.com/M-Daley/nextjs-blog",
+        demo: "https://nextjs-blog-black-six.vercel.app/",
+        image: "/assets/blog.png",
+        title: "Next Powered Blog"
     }
 }
 

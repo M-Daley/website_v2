@@ -7,6 +7,7 @@ return(
         <div data-aos="fade-up" className="project-container">
                 <ProjectCard {...ProjectInfo.artGallery}/>
                 <ProjectCard {...ProjectInfo.responsive}/>
+                <ProjectCard {...ProjectInfo.blog}/>
             </div>
     </div>
 )}
