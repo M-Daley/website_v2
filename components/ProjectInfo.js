@@ -1,4 +1,4 @@
-export default ProjectInfo = {
+const ProjectInfo = {
     artGallery: {
         position: 1,
         description: "A mobile & tablet responsive single site web page that displays hand drawn and animated art by a close friend of mine. Utilizes react-scroll for a smooth transition back to the top of the page, cloudinary to host the images and next/react to piece it all together.",
@@ -16,3 +16,5 @@ export default ProjectInfo = {
         title: "Responsive Info Page"
     }
 }
+
+export default ProjectInfo;
