@@ -12,7 +12,7 @@ export default function Contact() {
     function handleFormSubmit(e) {
         e.preventDefault()
         if (validateData()) {
-            // sendEmail()
+            sendEmail()
             setMessageValue('')
         } else {
             console.log("invalid")
